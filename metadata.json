@@ -1,0 +1,8 @@
+{ 
+2   "itemDisplayName": "Deploy a simple Linux VM in West EU", 
+3   "description": "This template allows you to deploy a simple Linux VM using CentOS 7.1, using the latest patched version. This will deploy in West EU on a D1 VM Size.", 
+4   "summary": "This template takes a minimum amount of parameters and deploys a Linux VM, using the latest patched version.", 
+5   "githubUsername": "dwaiba", 
+6   "dateUpdated": "2016-02-08" 
+7 } 
+

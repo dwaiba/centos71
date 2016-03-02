@@ -12,6 +12,7 @@ npm install -g azure-cli
 curl -L https://github.com/docker/compose/releases/download/1.6.0/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 export PATH=$PATH:/usr/local/bin/
+rm -rf vagrant_1.8.1_x86_64.rpm
 wget https://releases.hashicorp.com/vagrant/1.8.1/vagrant_1.8.1_x86_64.rpm
 yum install -y vagrant_1.8.1_x86_64.rpm
 wget https://copr.fedoraproject.org/coprs/purpleidea/vagrant-libvirt/repo/epel-7/purpleidea-vagrant-libvirt-epel-7.repo -O /etc/yum.repos.d/vagrant-libvirt.repo

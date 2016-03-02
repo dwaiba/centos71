@@ -4,7 +4,8 @@ curl -sSL https://get.docker.com/ | sh
 service docker start 
 systemctl stop firewalld
 systemctl disable firewalld
-yum install -y icu patch ruby ruby-devel rubygems gcc git libicu libicu-devel zlib zlib-devel gcc-c++ make epel-release
+yum install -y epel-release
+yum install -y icu patch ruby ruby-devel rubygems gcc git libicu libicu-devel zlib zlib-devel gcc-c++ make
 yum install -y nodejs
 yum install -y npm
 npm install -g azure-cli

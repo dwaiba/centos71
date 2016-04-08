@@ -16,7 +16,7 @@
         },
         "publicIPAddresses_dwaicentos_name": {
             "type": "string",
-            "defaultValue": csa1 
+            "defaultValue": "csa1" 
         },
         "virtualNetworks_CentOSVNET_name": {
             "type": "string",
@@ -58,7 +58,7 @@
                 },
                 "osProfile": {
                     "computerName": "[parameters('virtualMachines_CentOSVM_name')]",
-                    "adminUsername": "dwaiadminazure",
+                    "adminUsername": "adminazure",
                     "linuxConfiguration": {
                         "disablePasswordAuthentication": false
                     },

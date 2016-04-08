@@ -4,27 +4,27 @@
     "parameters": {
         "virtualMachines_CentOSVM_adminPassword": {
             "type": "secureString",
-            "defaultValue": "bangbang23D#"
+            "defaultValue": null
         },
         "virtualMachines_CentOSVM_name": {
             "type": "string",
-            "defaultValue": "CSAVM"
+            "defaultValue": "CSA1VM"
         },
         "networkInterfaces_centosVMNic_name": {
             "type": "string",
-            "defaultValue": "centosdemoVMNic"
+            "defaultValue": "centosademoVMNic"
         },
         "publicIPAddresses_dwaicentos_name": {
             "type": "string",
-            "defaultValue": "csa"
+            "defaultValue": csa1 
         },
         "virtualNetworks_CentOSVNET_name": {
             "type": "string",
-            "defaultValue": "CentOSVNET"
+            "defaultValue": "CentOS1VNET"
         },
         "storageAccounts_vhdstoragebjvujjhqevwuu_name": {
             "type": "string",
-            "defaultValue": "vhdstoragecsa"
+            "defaultValue": "vhdstoragecsa1"
         }
     },
     "variables": {},

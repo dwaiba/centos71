@@ -16,7 +16,7 @@
         },
         "publicIPAddresses_dwaicentos_name": {
             "type": "string",
-            "defaultValue": "csa1" 
+            "defaultValue": null 
         },
         "virtualNetworks_CentOSVNET_name": {
             "type": "string",

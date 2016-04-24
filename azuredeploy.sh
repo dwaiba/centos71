@@ -1,4 +1,3 @@
-### After azure-cli Installation and login###
 yum clean all
 yum update -y
 # yum -y install icu patch ruby ruby-devel rubygems
